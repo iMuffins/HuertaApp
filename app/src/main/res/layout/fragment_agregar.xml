@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="57dp"
+        android:layout_y="25dp"
+        android:text="Nombre:" />
+
+    <EditText
+        android:id="@+id/txNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="132dp"
+        android:layout_y="9dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="58dp"
+        android:layout_y="69dp"
+        android:text="Fecha:" />
+
+    <TextView
+        android:id="@+id/tvSeleccionarFecha"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_x="134dp"
+        android:layout_y="71dp"
+        android:allowUndo="true"
+        android:text="Seleccione fecha"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="86dp"
+        android:layout_y="405dp"
+        android:onClick="btGuardar_Inicio"
+        android:text="Guardar" />
+
+    <Button
+        android:id="@+id/btEliminar"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_x="239dp"
+        android:layout_y="460dp"
+        android:text="ELIMINAR" />
+
+    <Button
+        android:id="@+id/btBorrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="90dp"
+        android:layout_y="463dp"
+        android:text="BORRAR" />
+
+    <Button
+        android:id="@+id/btModificar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="239dp"
+        android:layout_y="404dp"
+        android:text="MODIFICAR" />
+
+    <Button
+        android:id="@+id/btAlgo"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_x="355dp"
+        android:layout_y="57dp"
+        android:text="A" />
+
+    <ImageView
+        android:id="@+id/imgvFoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="149dp"
+        android:layout_y="115dp"
+        tools:srcCompat="@tools:sample/avatars[0]" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="59dp"
+        android:layout_y="107dp"
+        android:text="Foto:" />
+
+    <Button
+        android:id="@+id/btMasFoto"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:layout_x="290dp"
+        android:layout_y="195dp"
+        android:text="+" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="148dp"
+        android:layout_y="251dp"
+        tools:srcCompat="@tools:sample/avatars[4]" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_x="31dp"
+        android:layout_y="249dp"
+        android:text="Generar Código QR:" />
+
+    <Button
+        android:id="@+id/btMasQr"
+        android:layout_width="38dp"
+        android:layout_height="wrap_content"
+        android:layout_x="287dp"
+        android:layout_y="332dp"
+        android:text="+" />
+
+</AbsoluteLayout>

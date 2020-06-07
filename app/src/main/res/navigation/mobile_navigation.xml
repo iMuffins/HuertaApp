@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_agregar">
+
+    <fragment
+        android:id="@+id/navigation_agregar"
+        android:name="com.huertaUrbana.finalfinalfinalhuerta.ui.agregar.agregarFragment"
+        android:label="@string/title_agregar"
+        tools:layout="@layout/fragment_agregar" />
+
+    <fragment
+        android:id="@+id/navigation_lista"
+        android:name="com.huertaUrbana.finalfinalfinalhuerta.ui.lista.listaFragment"
+        android:label="@string/title_lista"
+        tools:layout="@layout/fragment_lista" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.huertaUrbana.finalfinalfinalhuerta.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>
